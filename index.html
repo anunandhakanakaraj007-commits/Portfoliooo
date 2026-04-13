@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elite Portfolio | Anunanda</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+body{background:#0a0a0a;color:#fff;overflow-x:hidden}
+header{position:fixed;width:100%;padding:20px 8%;display:flex;justify-content:space-between;z-index:1000;background:rgba(10,10,10,0.6);backdrop-filter:blur(15px)}
+nav a{margin:0 20px;text-decoration:none;color:#aaa;transition:0.3s}
+nav a:hover{color:#fff}
+.hero{height:100vh;display:flex;flex-direction:column;justify-content:center;padding:0 8%}
+.hero h1{font-size:4rem;font-weight:800;background:linear-gradient(90deg,#38bdf8,#6366f1);-webkit-background-clip:text;color:transparent}
+.hero p{margin:20px 0;color:#aaa;max-width:600px}
+.btn{padding:14px 30px;border-radius:30px;background:linear-gradient(90deg,#38bdf8,#6366f1);border:none;color:#fff;cursor:pointer;transition:0.3s}
+.btn:hover{transform:scale(1.05)}
+.section{padding:120px 8%}
+.section h2{font-size:2.5rem;margin-bottom:40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
+.card{background:linear-gradient(145deg,#111,#1a1a1a);padding:25px;border-radius:20px;transition:0.4s;border:1px solid rgba(255,255,255,0.05)}
+.card:hover{transform:translateY(-10px);border:1px solid rgba(99,102,241,0.5)}
+.skill-bar{margin-top:10px;height:6px;background:#222;border-radius:10px;overflow:hidden}
+.skill-fill{height:100%;background:linear-gradient(90deg,#38bdf8,#6366f1)}
+footer{text-align:center;padding:40px;color:#666}
+.glow{position:absolute;width:500px;height:500px;background:radial-gradient(circle,#6366f1,transparent);filter:blur(120px);opacity:0.3;top:10%;left:-10%}
+@media(max-width:768px){.hero h1{font-size:2.5rem}}
+</style>
+</head>
+<body><div class="glow"></div><header>
+<h2>ANUNANDA KANAKARAJAN</h2>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header><section class="hero">
+<h1>Building Digital Experiences That Matter</h1>
+<p>I am an AI & Data Science student focused on building modern, scalable, and impactful solutions through code and innovation.</p>
+<button class="btn">View Projects</button>
+</section><section id="about" class="section">
+<h2>About Me</h2>
+<p>I am a first-year B.Tech student in Artificial Intelligence and Data Science with a strong passion for technology, innovation, and problem-solving. I am actively developing my skills in programming, web development, and data analysis, and I am eager to apply my knowledge to real-world challenges and build meaningful projects.</p>
+</section><section id="skills" class="section">
+<h2>Skills</h2>
+<div class="grid">
+<div class="card">HTML<div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div></div>
+<div class="card">CSS<div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+<div class="card">JavaScript<div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+<div class="card">Python<div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div></div>
+</div>
+</section><section id="projects" class="section">
+<h2>Projects</h2>
+<div class="grid"><div class="card">
+<h3>Personal Portfolio Website</h3>
+<p>High-end responsive portfolio with modern UI/UX.</p>
+</div><div class="card">
+<h3>Student Management System</h3>
+<p>System for managing student data efficiently.</p>
+</div><div class="card">
+<h3>Python Calculator</h3>
+<p>CLI-based calculator with optimized logic.</p>
+</div><div class="card">
+
+
+  <h3>Flexible Gig Platform for Students and Small Businesses
+  </h3>
+<p>Platform connecting students with businesses for flexible work.</p>
+</div>
+</div>
+</section><section id="contact" class="section">
+<h2>Contact</h2>
+<p>Email: anunandakanakarajan@gmail.com</p>
+<p>LinkedIn: https://www.linkedin.com/in/anunanda-kanakarajan-a67132379?utm_source=share_via&utm_content=profile&utm_medium=member_android</p>
+</section><footer>
+<p>© 2026 Anunanda — Designed like a Top Developer Portfolio</p>
+</footer></body>
+</html>
